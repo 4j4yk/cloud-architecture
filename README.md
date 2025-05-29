@@ -102,3 +102,25 @@ Performance Operations (PerfOps): Focuses on ensuring the system performs accord
 * Requirement Definition: It is crucial to use a standard template or checklist to define the requirements for these new technologies. This helps ensure that all necessary aspects are considered and that the technology is leveraged effectively to meet business needs.
 * Business Alignment: Each list of requirements will differ based on the specific technologies and systems being defined, as well as how the business plans to leverage these technologies most effectively.
 * Ongoing Journey: The process of understanding business requirements and mapping them to the right design decisions is an ongoing journey. Staying updated with new technologies and continuously refining your approach is fundamental to building valuable cloud-based systems.
+
+## map storage
+
+* Mapping Requirements: The process involves translating business requirements into technical attributes to choose the appropriate cloud storage solutions.
+* Attributes to Consider: Key attributes include capacity, storage models (object, block, file), speed, disaster recovery, application interfaces, growth model, cost, management, and security.
+* Multi-Cloud Deployment: It's common to use a mix of storage services from different cloud providers to support multi-cloud deployments.
+
+## map compute
+* Mapping Business Requirements: It involves translating business requirements into technical attributes to select the appropriate compute platform services from cloud providers.
+* Key Considerations: Important factors include CPU type (e.g., Intel or AMD), memory size and speed, operating systems, disaster recovery options (active/active or active/passive), application interfaces, and security.
+* Balancing Needs: It's crucial to find a cost-effective balance for memory and CPU to avoid oversizing or undersizing the compute power needed.
+
+## map database
+* Types of Databases: There are various types of databases, including traditional (e.g., Oracle, DB2), open-source (e.g., MySQL), and cloud-specific (e.g., AWS's DynamoDB).
+* Considerations for Selection: Key factors include database capacity, type of data (text, images, video, etc.), database model (relational vs. object-based), speed, and management features.
+* Database Security: It's important to consider data encryption and integration with broader security systems.
+
+## map security 
+* Security Tools and Technologies: Selecting the right security approaches and technologies is crucial. This includes encryption methods, identity and access management (IAM), and roles to manage users and systems.
+* Governance: Governance works alongside security to place policies around the use of resources like applications, APIs, and storage. It ensures compliance with regulations and prevents misuse of sensitive data.
+* Integration: Effective security and governance require integrating directories (e.g., Microsoft's Active Directory) to manage identities and provide a single source of truth.
+
